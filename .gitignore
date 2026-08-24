@@ -1,0 +1,28 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local data and generated exports
+*.csv
+*.parquet
+*.xlsx
+*.xls
+*.geojson
+*.shp
+*.dbfs
+
+# Databricks / local configuration
+.databricks/
+.env
+.env.*
+!.env.example
+
+# OS and editor files
+.DS_Store
+.vscode/
+.idea/
